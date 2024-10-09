@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    background-color:#fff;
+    position: relative;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-1{
+    
+    height: 100vh;
+    position: relative;
+    background-color: #fff;
+     z-index: -1;
+    overflow: hidden; 
+    
+}
+  .blob{
+    height: 100vh;
+    background: url(/images/bg-tablet-pattern.png) no-repeat center center/cover ;    
+    background-position-x: right;
+    background-attachment: inherit;
+    background-size: 35rem;
+    position: relative;
+    z-index:-1;
+    top: -42rem;
+    right: -3rem;
+}  
+
+ nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 4rem;  
+}
+nav ul li{
+    display: inline-block;
+}
+.ham{
+    display: none;
+}
+.links a{
+   text-decoration: none;
+   padding-right: 1rem;
+   color: #333;
+   font-weight: 500;
+}
+.get a{
+    text-decoration: none;
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius:100px ;
+    font-weight: 600;
+    transition: all 0.7s ease-in;
+    border: 1px solid hsl(12, 88%, 59%);
+}
+.get a:hover{
+    background-color: transparent;
+    color: hsl(12, 88%, 59%);
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+    margin-left: 3rem;
+    padding-top: 4rem;
+}
+.hero-sect{
+    max-width:40%;
+    padding-top: 2rem;  
+} 
+.hero-sect h1{
+   width:80%;
+   margin-bottom:1rem ;
+   font-size: 2rem;
+   color: #333;
+}
+.hero-sect p{
+  width: 70%;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: rgb(150, 145, 145);
+  font-weight: 400;
+}
+.images img{
+    max-width: 29rem;
+}
+.manage{    
+   position: relative;   
+   padding: 3rem 3rem;
+   background-color:#fff;
+   height: 105vh;
+   overflow: hidden;
+   border-top: 1px solid hsl(12, 88%, 59%);
+}
+.hero-1{
+   display: flex;
+   justify-content: space-around;
+   margin-top: -23rem;
+}
+.list{ 
+ flex-drection: column;
+ max-width: 40%;
+ margin-top: 1rem;
+ margin-right: -7rem;
+ position: relative;
+}
+
+.hero-sect-1{   
+    max-width: 40%;
+    max-height: 15rem;    
+}
+.hero-sect-1 h1{
+    width:80%;
+   margin-bottom:1rem ;
+   font-size: 2rem;
+   color: #333;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-sect-1 p{
+    width: 70%;
+    padding-top: 1rem;
+    width: 70%;
+   font-size: 1rem;
+   margin-bottom: 2rem;
+   color: rgb(150, 145, 145);
+   font-weight: 400;
+}
+ .content{
+    margin-bottom: 1rem;   
+}
+.content h1{
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.content p{
+    max-width: 60%;
+}
+.wahala{
+    display: flex;
+}
+.wahala h2{
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 100px;
+    margin-left: -3.5rem;
+}
+.wahala h1{
+    margin-left: 1rem;}
+
+.blob-2 img{
+    max-width: 25rem;
+    position: relative;
+    left:-18rem;
+    z-index:1;
+    bottom: -20rem;
+}
+#comments{
+    height: 90vh;
+    padding:3rem 0;
+    background-color: #fff;
+    border-top: 1px solid hsl(12, 88%, 59%);
+}
+.people{
+    background-color:hsl(0, 0%, 98%);
+    width: 25%;
+    text-align: center;
+    padding: 0 2rem 2rem 2rem;
+}
+.people h4{
+    padding-bottom: 0.5rem;
+}
+.people img{
+    max-width: 4rem;
+    margin-top: -2rem;
+    padding-bottom: 0.7rem;
+}
+.people p{
+    color:  rgb(150, 145, 145);
+}
+.main-comm{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+.get-2 a{
+ text-align: center;
+ text-decoration: none;
+ background-color: hsl(12, 88%, 59%);
+ color: #fff;
+ padding: 0.5rem 2rem;
+ border-radius:100px ;
+ font-weight: 600;
+ transition: all 0.7s ease-in;
+ border: 1px solid hsl(12, 88%, 59%);
+ position: relative;
+ top: 3rem;
+ left: 45%;
+ transition: all 0.7s ease-in;
+}
+.get-2 a:hover{
+    background-color:transparent ;
+    color: hsl(12, 88%, 59%);
+}
+#simplify{
+    height: 40vh;
+    background:url(/images/bg-simplify-section-desktop.png) ;
+    background-color: hsl(12, 88%, 59%);
+    display: flex;
+    padding: 4rem 8rem;
+    justify-content: space-between;
+}
+.simply h1{
+  color: #fff;
+  font-size: 2rem;
+  width: 70%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+.start a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    color:hsl(12, 88%, 59%);
+    padding: 0.8rem 3rem;
+    border-radius:100px ;
+    font-weight: 600;
+    transition: all 0.7s ease-in;
+    border: 1px solid hsl(12, 88%, 59%);
+    position: relative;
+    bottom: -2rem;
+}
+.start a:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+footer{
+    background-color:hsl(233, 12%, 13%) ;
+    height: 40vh;
+    padding: 2rem 4rem 2rem 8rem;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;    
+    transition: all 0.5s ease-in;
+}
+.link a:hover{
+    color:hsl(12, 88%, 59%);
+}
+footer p{
+    margin-top: 3rem;
+    color: #fff;
+}
+footer img{
+    margin-bottom: 3rem;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-logo{
+   flex-direction: column;
+}
+.foot-logo a{
+    padding-right: rem;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    
+}
+.link a{
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+input{
+    border-radius: 100px;
+    padding: 0.8rem 0;
+}
+.invite a{
+    background-color: hsl(12, 88%, 59%);
+    padding: 0.75rem 1rem;
+    border-radius: 100px;
+}

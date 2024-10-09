@@ -1,0 +1,383 @@
+@media (max-width:480px){
+ .links{
+    display: none;
+ } 
+ nav{
+    padding:3rem 2rem 0 2rem;
+    justify-content: space-between;
+    margin-left:rem;
+ }
+ .blob{
+    top: -69rem;
+    right: -9rem;
+    background-size: 22rem;
+ }
+ .ham{
+    display: block;
+ }
+ .get{
+   display: none;
+ }
+ .hero{
+    flex-direction: column-reverse;
+    padding: 5rem 1rem 0 1rem;
+    
+ }
+ .images img{
+    max-width: 17rem;
+ }
+ .hero-sect{
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+ }
+ .hero-sect h1{
+   width: 100%;
+ }
+ .hero-sect p{
+    width: 100%;
+ }
+ 
+ .hero-1{
+    flex-direction: column;
+    
+ }
+ .hero-sect-1{
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+ }
+ .list{ 
+    max-width:100%;
+    margin-top:3rem;
+    margin-right:0;
+    position: relative;
+   }
+   .hero-sect-1 h1{
+    width:100%;   
+}
+.hero-sect-1 p{
+    width:100%;    
+   margin-bottom: 1rem;  
+}
+.content{
+    padding-bottom: 2rem;
+}
+.manage{
+padding: 2rem 2rem;
+margin-left: -2.9rem;
+margin-top: 1rem;
+height: 150vh;
+}
+.list{ 
+max-width:100%;
+padding-top:1rem;
+padding-right: 2rem;
+padding-left: rem;
+}
+.content{
+padding-bottom: 2rem;
+position: relative;    
+margin-left:4rem;   
+}
+.wahala h1{            
+    background-color:bisque;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 10px 10px 10px;
+     max-width: 100%;
+     text-align: center;
+    margin-left: -0.2rem;
+    font-size: 1rem;
+    max-width: 100%;
+}
+.content p{
+max-width: 100%;
+font-size: 1rem;
+text-align: center;
+margin-top: 1rem;
+}
+.wahala h2{
+margin-left:0.5rem;
+font-size: 1.5rem;
+border-radius: 10px;
+padding:1rem;
+display: none;
+}
+
+span{
+    margin-left:0;
+    padding: 0.3rem 1rem;
+    margin-right: 2rem;    
+}
+.blob-2 img{
+    max-width: rem;
+    z-index: -1;
+}
+#comments{
+    height:140vh;
+}
+.people{
+    width: 100%;
+    margin-bottom:5rem;
+}
+.main-comm{
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.get-2 a{
+  left: 30%;
+  top: 0;
+}  
+#simplify{
+    flex-direction: column;
+    padding:3rem 2rem 2rem 2rem;
+    align-items: center;
+    height: 50vh;
+    background: url(/images/bg-simplify-section-mobile.png);
+    background-color: hsl(12, 88%, 59%);
+    background-repeat: no-repeat;
+}
+.simply h1{
+   width: 100%;
+   text-align: center;
+   font-size:3rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.start a{
+    bottom:3rem;
+}
+footer{
+    padding:4rem 2rem;
+    height:70vh;
+}
+.foot{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.foot-logo{
+    flex-direction:column-reverse ;
+}
+.display{
+    padding: 2rem 0 2rem 0;
+}
+.link{
+    margin-right: 2rem;
+}
+}
+@media (max-width:380px){
+ .section-1{
+    height: 120vh;
+ }
+ .manage{
+    height: 160vh;
+    padding: 1rem 1rem 1rem 2rem;
+ }
+ .content{
+    margin-bottom: 1rem;
+ }
+ #comments{
+    height: 160vh;
+ }
+ #simplify{
+    padding:1rem;
+ }
+ .invite input{
+    margin-right: 1rem;
+ }
+ footer{
+    height:80vh;
+ }
+}
+@media (width:375px) and (height:812px){
+    .section-1{
+        height:100vh;
+    }
+    .manage{
+        height: 135vh;
+    }
+    #comments{
+        height: 140vh;
+    }
+    #simplify{
+        padding-top: 2.5rem;
+    }
+    footer{
+        height: 70vh;
+    }
+}
+@media (width:412px) and (height:914px){
+    .manage{
+        height: 130vh;
+    }
+}
+
+@media  (min-width:765px) and (max-width:825px){
+    .section-1{
+        padding: 2rem;
+    }
+    .links,.get{
+        display: none;
+    }
+    .ham {
+        display: block;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .blob{
+        
+        top: -85rem;
+        right: -4rem;
+        background-size: 22rem;
+         
+    }
+    .logo{
+        max-width: 17rem;
+    }
+    .hero{
+        margin: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .images img{
+        max-width: 29rem;
+    }
+    
+    .hero-sect{
+       max-width: 100%;
+       text-align: center;
+    }
+    .hero-sect h1{
+       width: 100%;
+       font-size: 3rem;
+       padding-bottom: 1rem;
+    }
+    .hero-sect p{
+       width: 100%;
+       font-size: 1.5rem;
+    }
+    .hero-1{
+        flex-direction: column;     
+        margin-top: 0;   
+        align-items: center;
+    }
+    .hero-sect-1{
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+        align-items: center;
+        position: relative;
+        left: 7rem;
+     }
+     .hero-sect-1 h1{
+        font-size: 3rem;
+     }
+     .hero-sect-1 p{
+        font-size: 1.7rem;
+     }
+     .manage{
+        padding: 4rem 3rem 2rem 2rem;
+        margin-left: -2.7rem;
+        margin-top: 1rem;
+        height: 130vh;
+    }
+     .list{ 
+        max-width:100%;
+        padding-top:10rem;
+        padding-right: 2rem;
+        padding-left: rem;
+       }
+       .content{
+        padding-bottom: 2rem;
+        position: relative;    
+        margin-left:4rem;   
+       }
+       
+        .wahala h1{            
+            background-color: bisque;
+            padding: 0.5rem 2rem 0.5rem 2rem;
+            margin-left: -0.2rem;
+        }
+       .content p{
+        max-width: 90%;
+        font-size: 1.7rem;
+        text-align: enter;
+        margin-top: 1rem;
+       }
+       .wahala h2{
+        margin-left:0.5rem;
+        font-size: 2rem;
+        border-radius: 10px;
+       }
+       .blob-2{
+        display: none;
+        }
+        span{
+        margin-left: 0;
+        }
+        #comments{
+            height: 140vh;
+        }
+        .main-comm{
+            flex-direction: column;
+        }
+        .people{
+            width: 100%;
+            margin-top: 4rem;
+        }
+        .people h4{
+           font-size: 1.5rem;
+        }
+        .people p{
+           font-size: 2rem;
+        }
+        .get-2 a{
+            padding: 1rem 2rem;
+            font-size: 1.4rem;
+            font-weight:700;
+            left: 39%;
+            top: 6rem;
+        }
+        #simplify{
+            flex-direction: column;
+            background-repeat: no-repeat;
+            height: 30vh;
+            align-items: center;
+            padding: 1.5rem;
+        }
+        .simply h1{
+            text-align: center;
+            width: 100%;
+            font-size: 3rem;
+            padding: ;
+        }
+        .start a{
+            bottom: 2rem;
+            font-size: 1.7rem;
+        }
+        footer{
+            padding:3.5rem 0 1.5rem 2rem;
+            height: 30vh;
+        }
+        footer img{
+            padding-right: 2rem;
+        }
+        .foot-logo{
+            padding-right: 1rem;
+        }
+        .invite{
+            display: flex;
+            flex-direction: column
+        }
+        .invite a{
+            text-align: center;
+            width:10rem;
+        }
+        input{
+            width:10rem ;
+        }
+}
+@media  (min-width:910px) and (max-width:1024px){
+
+}
